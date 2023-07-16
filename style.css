@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300&family=Ubuntu:wght@700&display=swap');
+        body{
+            font-family: 'League Spartan', sans-serif;
+        }
+        .top{
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+        }
+        .top-text{
+            margin-left: 24px;
+            margin-top: 24px;
+        }
+        .top-text h2{
+            color: rgb(81, 81, 140);
+            font-weight: 800;
+            font-size: 2rem;
+        }
+        
+        .logo{
+            background-size: cover;
+            width: 165px;
+             height: 100px;
+        }
+        .logo img{
+            height: 22vh;
+            width: 147px;
+        }
+        .margin{
+            margin-top: 28px;
+            margin-left: 67px;
+            margin-right: 35px;
+        }
+        .text h1{
+            color: rgb(81, 81, 140) ;
+            font-weight: 1000;
+            font-size: 3.5rem;
+            text-decoration: underline;
+            text-decoration-color:rgb(81, 81, 140) ;
+        }
+        .num h2{
+            font-size: 2rem;
+            text-decoration: underline;
+            text-decoration-color: black;
+        }
+        .name{
+            margin-left: 20px;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .body{
+            font-size: 1.5rem;
+            margin-left: 20px;
+           
+        }
+        .para1 p{
+            margin-top: 50px;
+        }
+        .para2 p{
+            margin-top: 100px;
+        }
+        .para3 p{
+            margin-top: 100px;
+        }
+        .last{
+            justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        display: flex;
+        }
+        .img1 img{
+            height: 22vh;
+            width: 254px;
+        }
+        .img2 img{
+            height: 28vh;
+            width: 165px;
+        }
+        .img1 p{
+            color: rgb(94, 94, 164);
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-left: 20px;
+            padding: 2px 0;
+        }
+       footer p{
+        text-align: center;
+        color:rgb(94, 94, 159) ;
+        cursor: pointer;
+        margin-top: 5px;
+        margin-left: 50px;
+
+       }
+       footer p:hover{
+        text-decoration: underline;
+        text-decoration-color:rgb(94, 94, 164) ;
+       }
